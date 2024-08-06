@@ -1,0 +1,51 @@
+.carousel {
+    position: relative;
+    max-width: var(--width);
+    /* Set the width of the carousel */
+    margin: auto;
+    overflow: hidden;
+    /* Hide overflow */
+    padding: 25px 0;
+    border-radius: 9px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Smooth transition */
+}
+
+.carousel-images img {
+    max-width: 100%;
+    /* Make images responsive */
+    display: block;
+    aspect-ratio: 21/9;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 9px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.553);
+    border-radius: 50%;
+    border: none;
+    aspect-ratio: 2/2;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    padding: 2px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

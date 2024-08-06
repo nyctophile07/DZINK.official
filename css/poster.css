@@ -1,0 +1,22 @@
+.poster-body {
+    position: relative;
+    width: 40%;
+}
+
+.poster {
+    aspect-ratio: 4/5;
+    height: 40vmin;
+    object-fit: cover;
+    object-position: center;
+}
+.first{
+    position: relative;
+    transform: rotate(-8deg);
+    left: 90px;
+}
+.second{
+    position: absolute;
+    top: 40px;
+    transform: rotate(5deg);
+    right: 90px;
+}

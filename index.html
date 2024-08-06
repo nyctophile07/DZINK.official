@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/poster.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="whitebg hide"></div>
+        <header>
+            <nav>
+                <img id="logo" src="image/assets/DZINK LOGO BLACK.png" alt="DZINK LOGO">
+                <div id="ham"></div>
+                <div class="navlink">
+                    <a href="">SEARCH</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">CART</a>
+                    <a href="">TRACK ORDER</a>
+                    <a href="">SIGN IN</a>
+                </div>
+            </nav>
+            <div class="coupon">
+            Use this code <span class="bold">WELCOME15</span> & get upto 50% discount 
+            </div>
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image/carousels/carousel1.jpg" alt="Image 1">
+                    <img src="image/carousels/carousel2.jpg" alt="Image 2">
+                    <img src="image/carousels/carousel3.jpg" alt="Image 3">
+                </div>
+                <button class="prev btn" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next btn" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="start">
+                <div class="head">
+                    <span class="headtxt small">ANIME, MOVIES, SPORTS, GAMEING & MANY MORE...</span>
+                    <span class="headtxt heading bold">Grab your favorite posters </span>
+                    <span class="headtxt heading">starting from ₹59!</span>
+                    <span><button class="headtxt">EXPLORE</button></span>
+                </div>
+                <div class="poster-body">
+                    <img class="poster first">
+                    <img class="poster second">
+                </div>
+            </div>
+            <div class="custom">
+                <div id="preview">
+
+                </div>
+                <div class="head">
+                    <span class="headtxt heading bold">Personalize with presets</span>
+                    <span class="headtxt small"><a href="">Go to Customization tab</a></span>
+                </div>
+            </div>
+        </header>
+
+        <content>
+            <section id="cat">
+                <span>ALL COLLECTIONS</span>
+                <div class="categories">
+                    <div class="cat-item"></div>
+                    <div class="cat-item"></div>
+                    <div class="cat-item"></div>
+                    <div class="cat-item"></div>
+                    <div class="cat-item"></div>
+                    <div class="cat-item"></div>
+                    <div class="cat-item" id="mob"></div>
+                    <div class="cat-item landscape"></div>
+                </div>
+            </section>
+        </content>
+        <footer>
+            <div class="footer-content1">
+                <h1 class="heading bold">ABOUT US</h1>
+                <p class="small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We believe every wall tells a story. Our curated collection of posters and wall art is designed to inspire and transform your space. From modern art to vintage posters, we have something for every taste. Discover the perfect piece to express your personality and enhance your decor.</p>
+            </div>
+            <div class="footer-content2">
+                <div class="endlink">
+                    <a href="">FAQs</a>
+                    <a href="">Terms & conditions</a>
+                    <a href="">Feedback</a>
+                    <a href="">Shipment Policy</a>
+                    <a href="">Replacement</a>
+                    <a href="">Contact us</a>
+                    <a href="">Privacy</a>
+                </div>
+                <div class="end">
+                    <a href="https://www.instagram.com"><img src="image/assets/icon/insta icon.png" alt="insta"></a>
+                    <span>© 2024, THE JUNKIES | ALL RIGHTS RESERVED</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/poster.js"></script>
+    <script src="js/carousel.js"></script>
+
+</body>
+
+</html>
